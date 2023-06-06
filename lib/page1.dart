@@ -12,7 +12,7 @@ class page1 extends StatelessWidget {
           width: 400,
           height: 200,
           color: Colors.cyan,
-          child: Center(child: Text(' This is My First Page',style: TextStyle(fontSize: 25,color: Colors.white),)),
+          child: Center(child: Text(' This is My First Page',style: TextStyle(fontSize: 25,color: Colors.white,fontWeight: FontWeight.bold),)),
         ),
       ),
 

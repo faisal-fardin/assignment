@@ -32,10 +32,12 @@ class _MyappState extends State<Myapp> {
         title: Text('My apps '),
       ),
       drawer: Drawer(
+        width: 200,
         child: ListView(
           children: [
             ListTile(
-              title: Text('Home page'),
+
+              title: Text('Home Page',style: TextStyle(fontSize: 20),),
               onTap: (){
                 setState(() {
                   _currentIndex =0;
@@ -43,7 +45,7 @@ class _MyappState extends State<Myapp> {
               },
             ),
             ListTile(
-              title: Text('Call page'),
+              title: Text('Call Page',style: TextStyle(fontSize: 20),),
               onTap: (){
                 setState(() {
                   _currentIndex =1;
@@ -51,7 +53,7 @@ class _MyappState extends State<Myapp> {
               },
             ),
             ListTile(
-              title: Text('Message page'),
+              title: Text('Message Page',style: TextStyle(fontSize: 20),),
               onTap: (){
                 setState(() {
                   _currentIndex =2;

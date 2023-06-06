@@ -12,7 +12,7 @@ class page3 extends StatelessWidget {
           width: 400,
           height: 200,
           color: Colors.red,
-          child: Center(child: Text(' This is My three Page',style: TextStyle(fontSize: 25,color: Colors.amberAccent),)),
+          child: Center(child: Text(' This is My three Page',style: TextStyle(fontSize: 25,color: Colors.amberAccent,fontWeight: FontWeight.bold),)),
         ),
       ),
 

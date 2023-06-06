@@ -12,7 +12,7 @@ class page2 extends StatelessWidget {
           width: 400,
           height: 200,
           color: Colors.lightGreen,
-          child: Center(child: Text(' This is My Two Page',style: TextStyle(fontSize: 25,color: Colors.black),)),
+          child: Center(child: Text(' This is My Two Page',style: TextStyle(fontSize: 25,color: Colors.black,fontWeight: FontWeight.bold),)),
         ),
       ),
 
