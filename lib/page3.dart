@@ -15,7 +15,12 @@ class page3 extends StatelessWidget {
           child: Center(child: Text(' This is My three Page',style: TextStyle(fontSize: 25,color: Colors.amberAccent,fontWeight: FontWeight.bold),)),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.red,
+        onPressed: (){},
+        child: Text('Click',style: TextStyle(color: Colors.black),),
 
+      ),
     );
   }
 }

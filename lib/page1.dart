@@ -15,8 +15,13 @@ class page1 extends StatelessWidget {
           child: Center(child: Text(' This is My First Page',style: TextStyle(fontSize: 25,color: Colors.white,fontWeight: FontWeight.bold),)),
         ),
       ),
-
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blueAccent,
+        onPressed: (){},
+        child: Text('Click'),
+      ),
     );
+
   }
 }
 

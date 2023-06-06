@@ -15,7 +15,11 @@ class page2 extends StatelessWidget {
           child: Center(child: Text(' This is My Two Page',style: TextStyle(fontSize: 25,color: Colors.black,fontWeight: FontWeight.bold),)),
         ),
       ),
-
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.lime,
+        onPressed: (){},
+        child: Text('Click',style: TextStyle(color: Colors.red),),
+      ),
     );
   }
 }
